@@ -15,6 +15,7 @@ public class Task1 {
         driver = new ChromeDriver();
     }
 
+
     @Test
     public void Task1Test(){
         driver.get("https://pastebin.com/");
