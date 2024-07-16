@@ -3,6 +3,7 @@ package com.epam.lakshmidhar_tirupati.optional_task2;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -14,7 +15,7 @@ public class Task2 {
     private WebDriver driver;
     @BeforeClass
     public void beforeClass(){
-        driver = new EdgeDriver();
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
 
